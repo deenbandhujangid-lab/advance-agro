@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sign in - Advance Agro</title>
+    <title>Sign in - GK Buildcon</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
@@ -12,7 +12,7 @@
 <body>
 <div class="auth">
     <div class="art">
-        <div class="brand p-0 mb-4"><span class="logo"><i class="bi bi-flower1"></i></span> Advance Agro</div>
+        <div class="brand p-0 mb-4"><span class="logo"><i class="bi bi-flower1"></i></span> GK Buildcon</div>
         <h2>Attendance, leave and salary in one place.</h2>
         <ul class="list-unstyled mt-4 fs-6">
             <li><i class="bi bi-check2-circle me-2"></i> See who is present, late or outside right now</li>

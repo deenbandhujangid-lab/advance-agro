@@ -13,17 +13,17 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Api.load();
   await Tracker.init();
-  runApp(const AdvanceAgroApp());
+  runApp(const GkBuildconApp());
 }
 
-class AdvanceAgroApp extends StatefulWidget {
-  const AdvanceAgroApp({super.key});
+class GkBuildconApp extends StatefulWidget {
+  const GkBuildconApp({super.key});
 
   @override
-  State<AdvanceAgroApp> createState() => _AdvanceAgroAppState();
+  State<GkBuildconApp> createState() => _GkBuildconAppState();
 }
 
-class _AdvanceAgroAppState extends State<AdvanceAgroApp> {
+class _GkBuildconAppState extends State<GkBuildconApp> {
   @override
   void initState() {
     super.initState();
@@ -36,7 +36,7 @@ class _AdvanceAgroAppState extends State<AdvanceAgroApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Advance Agro',
+      title: 'GK Buildcon',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: green, primary: green),

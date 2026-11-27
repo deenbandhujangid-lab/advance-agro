@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         User::firstOrCreate(['emp_code' => 'ADMIN'], [
-            'name' => 'Super Admin', 'email' => 'admin@advanceagro.local', 'password' => 'admin123',
+            'name' => 'Super Admin', 'email' => 'admin@gkbuildcon.local', 'password' => 'admin123',
             'role' => 'super_admin', 'status' => 'active', 'joined_on' => today(),
         ]);
 

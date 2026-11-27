@@ -148,7 +148,7 @@ class _HomeTabState extends State<HomeTab> with WidgetsBindingObserver {
               child: const Icon(Icons.eco, color: Colors.white, size: 20),
             ),
             const SizedBox(width: 10),
-            const Expanded(child: Text('Advance Agro', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold))),
+            const Expanded(child: Text('GK Buildcon', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold))),
             IconButton(
               onPressed: () async {
                 await Navigator.push(context, MaterialPageRoute(builder: (_) => const NoticesScreen()));

@@ -63,7 +63,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       ),
                     ),
                     const SizedBox(height: 12),
-                    const Text('Advance Agro', textAlign: TextAlign.center, style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                    const Text('GK Buildcon', textAlign: TextAlign.center, style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
                     const Text('Employee attendance', textAlign: TextAlign.center, style: TextStyle(color: Colors.black54)),
                     const SizedBox(height: 20),
                     TextField(

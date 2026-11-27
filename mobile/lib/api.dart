@@ -22,7 +22,7 @@ class ApiException implements Exception {
 class Api {
   /// Address of the office server. Can be changed on the sign-in screen.
   static const defaultServer = String.fromEnvironment('SERVER',
-      defaultValue: 'http://192.168.1.102/Advance-agro/web/public');
+      defaultValue: 'https://advance-agro.giftkoo.com');
 
   static late SharedPreferences _prefs;
   static String server = defaultServer;
@@ -117,7 +117,7 @@ class Loc {
       throw ApiException('Location permission is needed for attendance. Please allow it.');
     }
     if (permission == LocationPermission.deniedForever) {
-      throw ApiException('Location permission is blocked. Open phone Settings > Apps > Advance Agro > Permissions and allow Location.');
+      throw ApiException('Location permission is blocked. Open phone Settings > Apps > GK Buildcon > Permissions and allow Location.');
     }
   }
 
